@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page name="loginPage"> 
+  <element name="用户账号输入框"> 
+    <path>//*[@id='loginName']</path> 
+  </element>  
+  <element name="用户密码输入框"> 
+    <path>//*[@id='password']</path> 
+  </element>  
+  <element name="登录按钮"> 
+    <path>//*[@id='submit']</path> 
+  </element>  
+  <element name="登录失败提示"> 
+    <path>//*[@id='error-message']/p</path> 
+  </element>  
+  <element name="欢迎提示"> 
+    <path>//*[@id='product-image-div']/div</path> 
+  </element>  
+  <element name="注销按钮"> 
+    <path>//a[@id='btnLogout']</path> 
+  </element>  
+  <element name="确定按钮"> 
+    <path>//a[@class='btn btn-undefined btn-primary']</path> 
+  </element>  
+  <element name="注销提示"> 
+    <path>//div[@text='确定要注销吗?']</path> 
+  </element>  
+  <element name="项目阶段选项"> 
+    <path>//td[contains(text(), '项目阶段')]/following-sibling::td[1]/div/span/span</path> 
+  </element>
+  <element name="修改人输入框">
+    <path>//*[@id='form1']/table/tbody/tr[6]/td[2]/input</path>
+  </element>
+  <element name="保存按钮">
+  	<path>//div[@id='Dialog1']/div[@class='main-toolbar']/div/a</path>
+  </element>
+</page>
